@@ -1,0 +1,19 @@
+.grouplist {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  color: white;
+  height: 87vh;
+  background: rgb(49, 49, 49);
+}
+.listitem {
+  color: white;
+  padding: 0.2rem;
+  border: 1px gray solid;
+  text-overflow: ellipsis;
+  float: left;
+  width: 24vw;
+  white-space: nowrap;
+  overflow: hidden;
+  background: black;
+}

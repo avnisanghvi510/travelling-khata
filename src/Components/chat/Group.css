@@ -1,0 +1,50 @@
+.group {
+  /* height:80vh; */
+  width: 80vw;
+  /* overflow: "scroll" */
+}
+.group_info {
+  padding: 0.3rem 0.6rem 0rem;
+  background: white;
+  position: sticky;
+  border-bottom: gray 1px solid;
+  width: 100rem;
+}
+.group_msgs {
+    display : 'flex';
+  padding: 0.4rem;
+  height: 65vh;
+  overflow-y: scroll;
+}
+.new_msg {
+  /* height: 5vh; */
+}
+.new_msg > input {
+  width: 66vw;
+  padding: 0.3rem;
+}
+.new_msg > button {
+  padding: 0.3rem;
+}
+.msg {
+  display: flex;
+  flex-direction: column;
+  background: rgb(226, 255, 201);
+  width: fit-content;
+  padding:0.3rem;
+  margin: 0.5rem 0.6rem;
+}
+.msg_owner {
+  /* background: wheat; */
+  color: rgb(0, 30, 255);
+  font-weight: bold;
+}
+.msg_body {
+  display: flex;
+}
+.msg_ {
+  padding-right: 1rem;
+}
+.msg_time{
+    color : gray;
+}

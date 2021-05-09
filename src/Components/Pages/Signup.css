@@ -1,0 +1,26 @@
+.signup-form {
+ width : auto;
+border-radius: 5%;
+box-shadow: 2px 1px 35px 0px rgba(255, 230, 230, 0.945);
+}
+@media only screen and (max-width: 539px){
+ .signup-form {
+   width : 20rem !important;
+ }
+}
+@media only screen and (max-width: 360px){
+ .signup-form {
+   width : 18rem !important;
+ }
+ Form.Label {
+   font-size: smaller !important;
+ }
+ .heading {
+   font-size: xx-large !important;
+ }
+}
+@media only screen and (max-width: 325px){
+ .signup-form {
+   width : 14rem !important;
+ }
+}

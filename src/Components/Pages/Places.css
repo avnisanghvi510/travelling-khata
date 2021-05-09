@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.location-search {
+  font-family: "Lato", sans-serif;
+  width: 500px;
+  height: 40px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  margin-top: 250px;
+  margin-left: 3rem;
+}
+.canvas {
+  background-image: url(./pexels-francis-seura-802412.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* .place-btn{
+  font: 1em sans-serif;
+} */
+
+.place-btn {
+  border: 1px solid black;
+  /* background: #; */
+  padding: 10px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  color: #3498db;
+  margin-left: 3rem;
+}
+
+.place-btn:hover {
+  color: #fff;
+}
+.place-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background : #3498db;
+  z-index: -1;
+  transition: 0.8s;
+  top: 0;
+  border-radius: 0 0 50% 50%;
+
+}
+.place-btn:hover::before {
+  height: 180%;
+}
